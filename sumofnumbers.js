@@ -5,6 +5,7 @@
 
 const testNums = [1, 2, 3, 4];
 
+/* eslint no-restricted-syntax: off */
 function sumFor(nums) {
   let total = 0;
   for (const num of nums) {
@@ -20,7 +21,7 @@ function sumWhile(nums) {
   let i = 0;
   while (i < nums.length) {
     total += nums[i];
-    i++;
+    i += 1;
   }
   return total;
 }

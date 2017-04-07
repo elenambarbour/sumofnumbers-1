@@ -10,6 +10,7 @@
     "prefer-arrow-callback": "off"
   },
   "globals": {
-    "_": true
+    "_": true,
+
   }
 }
